@@ -11,3 +11,4 @@ This is my configuiration on neovim. i use lazyvim plugin manager.
 - https://github.com/windwp/nvim-autopairs
 - https://github.com/folke/tokyonight.nvim
 - https://github.com/folke/which-key.nvim
+- https://github.com/mason-org/mason.nvim

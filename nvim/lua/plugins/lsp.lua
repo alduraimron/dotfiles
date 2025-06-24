@@ -1,11 +1,11 @@
 return {
   {
     "neovim/nvim-lspconfig",
-    --config = function()
-    --  local lspconfig = require("lspconfig")
-    --  lspconfig.lua_ls.setup({})
-    --  lspconfig.intelephense.setup({})
-    --end,
+    config = function()
+      local lspconfig = require("lspconfig")
+      lspconfig.lua_ls.setup({})
+      lspconfig.intelephense.setup({})
+    end,
   },
   {
     "hrsh7th/nvim-cmp",
@@ -25,6 +25,11 @@ return {
         },
       })
     end,
+  },
+  -- Mason untuk install & kelola LSP server
+  {
+    "mason-org/mason.nvim",
+    opts = {}
   },
 }
 
