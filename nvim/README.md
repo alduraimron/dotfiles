@@ -10,3 +10,4 @@ This is my configuiration on neovim. i use lazyvim plugin manager.
 - https://github.com/neovim/nvim-lspconfig
 - https://github.com/windwp/nvim-autopairs
 - https://github.com/folke/tokyonight.nvim
+- https://github.com/folke/which-key.nvim
